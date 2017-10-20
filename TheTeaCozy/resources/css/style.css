@@ -1,0 +1,188 @@
+/* universal */
+
+body {
+  background-color: black;
+  opacity: 0.9;
+}
+
+a,
+p,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+a,
+p,
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: black;
+  opacity: 1;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.nav a {
+  text-decoration: underline;
+  margin: 0px 10px;
+}
+
+/* main */
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+}
+
+/* our mission section */
+
+.mission {
+  background: lightblue url("../images/img-mission-background.jpg") no-repeat center top;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+.horiz-bar {
+  height: 100px;
+  width: 1200px;
+  background-color: black;
+  opacity: 1;
+}
+
+.horiz-bar h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.horiz-bar h4 {
+  margin: 0 auto;
+}
+
+/* tea of the month section */
+
+.tea h2 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.tea h4 {
+  margin: 0 auto;
+}
+
+.small {
+  height: 200px;
+  width: 300px;
+  margin: 30px 25px 10px 25px;
+}
+
+.tea-row1,
+.tea-row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.tea-row1 h4 {
+  margin: 0 auto;
+}
+
+.tea-row2 h4 {
+  margin: 0 auto;
+}
+
+.tea-row2 {
+  margin-bottom: 80px;
+}
+
+/* locations section */
+  
+.locations {
+  background: lightblue url("../images/img-locations-background.jpg") no-repeat center top;
+  height: 500px;
+  width: 1200px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+} 
+
+.loc-row {
+  display: flex;
+  justify-content: center;
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 225px;
+  background-color: black;
+  opacity: 1;
+  margin: 0px 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.locations h2 {
+  margin: 15 auto;
+}
+
+/* footer */
+
+.footer {
+  height: 200px;
+}
+
+.footer h2 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.copyright h5 {
+  text-align: left;
+  margin-left: 20px;
+}
